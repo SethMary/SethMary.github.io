@@ -1,5 +1,0 @@
-http://www.exampledomain.com/index.html
-http://www.exampledomain.com/beginner.html
-http://www.exampledomain.com/advanced.html
-http://www.exampledomain.com/misc.html
-http://www.exampledomain.com/contact.html
