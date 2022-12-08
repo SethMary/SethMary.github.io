@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- 
+	Seth Mary
+	contact
+	10-17-22 
+-->
+
+<html lang="en">
+<head>
+	<title>Contact Info | WarframeMovement</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Contact and help info for the site.">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/warframeicon.png">
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="beginner.html">Beginner and Simple Movement</a>
+				<a href="advanced.html">Advanced Movement</a>
+				<a href="misc.html">Miscellaneous Tech and Movement Related Items</a>
+				<a href="contact.html">Contact</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+	
+		<header id="header-text">
+			<h1>WarframeMovement</h1>
+			<h2>Helping new and experienced players alike</h2>
+			<img src="images/slide.PNG" alt="Default excalibur slide" class="tablet-desktop">
+		</header>
+		
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="beginner.html">Beginner and Simple Movement</a></li>
+				<li><a href="advanced.html">Advanced Movement</a></li>
+				<li><a href="misc.html">Miscellaneous Tech and Movement Related Items</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Main content of the webpage -->
+		<main>
+		
+			<div id="Contact_Info">
+				
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2372.9713276820216!2d-97.79483556213167!3d32.74208837281417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8651fdfb8ac942b5%3A0xa6afccce1d14c43d!2sWeatherford%20College!5e0!3m2!1sen!2sus!4v1663579241043!5m2!1sen!2sus" width="600" height="450" allowfullscreen class ="map"></iframe>
+				
+			</div>
+			
+			<div id="form">
+			
+				<h2>Additional Assistance</h2>
+				
+				<form>
+					<fieldset>
+						<legend>User Information</legend>
+						<label for="uName">In-Game Username:</label>
+						<input type="text" name="uName" id="uName" required>
+						
+						<label for="altName">Steam or Discord Contact:</label>
+						<input type="text" name="altName" id="altName" required>
+						
+						<label for="email">Email:</label>
+						<input type="text" name="email" id="email" required>
+					</fieldset>
+					
+					<fieldset>
+						<legend>Assistance Type</legend>
+						<p>What kind of assistance do you require:</p>
+						
+						<label for="moveQuestion"><input type="checkbox" name="interest" id="moveQuestion" value="I have a question about movement mechanics">I have a question about movement mechanics</label>
+						
+						<label for="coach"><input type="checkbox" name="interest" id="coach" value="I would like coaching from another player">I would like coaching from another player</label>
+						
+						<label for="site"><input type="checkbox" name="interest" id="site" value="I have a suggestion for the website">I have a suggestion for the website</label>
+					</fieldset>
+					
+					<!-- Submit Button -->
+					<input type="submit" id="submit" value ="Submit" class="btn">
+					
+				</form>
+			
+			</div>
+			
+		</main>
+		
+		<footer>
+			
+			<div class="copyright">
+				<p>Mary, This project is for a class assignment, 11-28-22</p>
+				<p><a href="warframemovement@gmail.com">warframemovement@gmail.com</a></p>
+			</div>
+		
+			<div class="social">
+				<a href="https://www.facebook.com/" target="_blank"><img src="images/facebook-logo-black.png" alt="black Facebook logo"></a>
+				<a href="https://twitter.com/" target="_blank"><img src="images/twitter-logo-black.png" alt="black Twitter logo"></a>
+			</div>
+			
+		</footer>
+		
+		<script src="scripts/script.js"></script>
+		
+	</div>
+	
+</body>
+</html>
